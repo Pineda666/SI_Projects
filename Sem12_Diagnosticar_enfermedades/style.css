@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+    display: flex;
+    column-gap: 20px;
+    /* background: url('https://img.freepik.com/premium-vector/vaccination-seamless-pattern_653576-56.jpg?w=2000') repeat 0 0; */
+    background: url(img/FONDOSI.jpg);
+    background-size: contain;
+    /* animation: bg-scrolling-reverse 100s infinite; */
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 2000px 2000px;
+  }
+}
+
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 2000px 2000px;
+  }
+}
+
+ul{
+  padding-left: 0 !important;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.formPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container{
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.result-container .container-enfermedad{
+  text-align: center;
+}
+
+.result-container .table-container{
+  padding: 20px 60px;
+}
+
+.result-container{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 70%;
+}
+
